@@ -21,16 +21,67 @@
 ]]></content>
   </entry>
   <entry>
-    <title>网站搭建教程</title>
+    <title>如何快速搭建个人博客网站</title>
     <url>/post/bb0369f5/</url>
-    <content><![CDATA[<h3 id="软件准备"><a href="#软件准备" class="headerlink" title="软件准备"></a>软件准备</h3><h3 id="初始化hexo模板"><a href="#初始化hexo模板" class="headerlink" title="初始化hexo模板"></a>初始化hexo模板</h3><span id="more"></span>
+    <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>搭建网站来记录我的生活思考，是我的一种新尝试，比起只能自己看备忘录以及热闹的网络软件，我更喜欢两者的中和。同时，想想自己的日常，缺少点梳理细节和系统思考的活动，左思右想，还是写文章更适合我。那么下面就来介绍下，如何用hexo+github搭建属于自己的个人网站吧！</p>
+<span id="more"></span>
 
-<h3 id="加入next主题"><a href="#加入next主题" class="headerlink" title="加入next主题"></a>加入next主题</h3><h3 id="github托管网站"><a href="#github托管网站" class="headerlink" title="github托管网站"></a>github托管网站</h3>]]></content>
+<h3 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h3><h4 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h4><p>首先，我们需要准备git、node.js、github账号三个必备工具。</p>
+<p>git官网下载：<a href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></p>
+<p>下载git可以方便你使用github的文件管理，同时简化node.js配置环境中的代码运行操作，不必每次都按win+R输入cmd用Windows系统运行窗口来运行指令。</p>
+<p>推荐安装教程：<a href="https://blog.csdn.net/weixin_42242910/article/details/136297201">windows安装git（全网最详细，保姆教程）-CSDN博客</a></p>
+<p>node.js下载：[Node.js 中文网 (nodejs.cn)](<a href="https://nodejs.cn/#:~:text=Node.js">https://nodejs.cn/#:~:text=Node.js</a> 是一)</p>
+<p>备注：node.js建议下载长期支持版本，下载最新版本可能系统检测不到，没法进行后面的环境配置</p>
+<p>推荐安装教程：<a href="https://blog.csdn.net/WHF__/article/details/129362462?ops_request_misc=%7B%22request_id%22:%22FB33DA8A-3F32-4380-8D9B-317CE8861E96%22,%22scm%22:%2220140713.130102334..%22%7D&request_id=FB33DA8A-3F32-4380-8D9B-317CE8861E96&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-129362462-null-null.142%5Ev100%5Epc_search_result_base6&utm_term=node.js%E5%AE%89%E8%A3%85&spm=1018.2226.3001.4187">2024最新版Node.js下载安装及环境配置教程【保姆级】_nodejs下载-CSDN博客</a> 看里面的下载流程就够了，暂时用不到node.js环境配置</p>
+<p>github账号注册：<a href="https://github.com/">GitHub</a></p>
+<p>备注：官网注册即可，因为github免费托管网站的域名是“用户名.git.io”，用户名和网站域名是绑定的，在你不更换域名的情况下，你可以先起个拿得出手的用户名，来撑起网站的门面。</p>
+<p>安装成功后，在任意位置，右键使用’Git Bash‘，输入以下命令查看是否安装成功：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
+
+<img src="D:\website\source\_posts\assets\image-20241006112719563.png" alt="image-20241006112719563" style="zoom:50%;" />
+
+<h4 id="node-js安装hexo并初始化"><a href="#node-js安装hexo并初始化" class="headerlink" title="node.js安装hexo并初始化"></a>node.js安装hexo并初始化</h4><p>hexo是基于node.js驱动的博客框架，Git Bash 使用如下命令下载：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>但是npm的服务器是国外提供的，下载里面的库速度极慢，安装过程容易显示卡着不动，解决办法就是需要用阿里提供的镜像源来下载。</p>
+<p>阿里云镜像源：<a href="https://npmmirror.com/">npmmirror 镜像站</a></p>
+<p>推荐教程：<a href="https://zhuanlan.zhihu.com/p/125604620#:~:text=cnpm%E7%9A%84%E7%AE%80%E4%BB%8B%E4%B8%8E%E4%BD%BF%E7%94%A8">cnpm的简介与使用 - 知乎 (zhihu.com)</a></p>
+<p>注意：阿里云的镜像网站更新了域名，需要使用新站点配置</p>
+<p>添加完镜像源后，以后用’cnpm’代替’npm’下载速度就正常了</p>
+<p>安装hexo后，在你放置网站文件的文件夹下，使用“Git Bash”，执行以下命令，初始化hexo模板：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init myBlog</span><br><span class="line">cd myBlog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>其中myBlog是新建文件夹名，cd命令进入新建文件夹下，进行npm install的模板安装</p>
+<p>而后输入<code>hexo s</code>生成网页，可以在本地服务器<a href="http://localhost:4000/">http://localhost:4000/</a>查看网页效果</p>
+<img src="D:\website\source\_posts\assets\image-20241006121840905.png" alt="image-20241006121840905" style="zoom:50%;" />
+
+<h3 id="添加hexo主题"><a href="#添加hexo主题" class="headerlink" title="添加hexo主题"></a>添加hexo主题</h3><p>添加主题以及主题配置，大家可以参考这篇教程：<a href="https://dayuzy.com/2024%E4%BF%9D%E5%A7%86%E7%BA%A7Hexo.html#%E6%9B%B4%E6%8D%A2%E6%96%B0%E7%94%B5%E8%84%91">2024保姆级Hexo+Github博客搭建教程 NexT主题域名配置 wordpress迁移 | 大鱼的博客 (dayuzy.com)</a></p>
+<p>hexo主题官网：[Themes | Hexo](<a href="https://hexo.io/themes/#:~:text=A">https://hexo.io/themes/#:~:text=A</a> cute and bright hexo theme suitable for literary creation)</p>
+<h3 id="部署网站到github"><a href="#部署网站到github" class="headerlink" title="部署网站到github"></a>部署网站到github</h3><p>首先，创建新仓库并命名为：<code>用户名.git.io</code>，这是github提供的唯一作为静态网站托管的站点。</p>
+<p>然后，配置SSH key秘钥将本地与github链接起来:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;邮箱地址&quot;</span><br><span class="line">ssh-keygen -t rsa -C &#x27;上面的邮箱&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>注意：user.name、user.email之后要有空格</p>
+<p>按照提示回车三次生成自己的SSH key，输入下面指令查看：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<p>将秘钥内容复制，登录github点击左上角头像-&gt;settings-&gt;左侧点击SSH and GPG keys，建立一个新的SSH key，标题任意没要求，将复制的秘钥粘贴上去，并确认建立，本地就可访问github仓库了。</p>
+<p>同时，在主题配置文件<code>_config.yml</code>中，拉到末尾，将自己的仓库地址配置如下：</p>
+<img src="D:\website\source\_posts\assets\image-20241006123124893.png" alt="image-20241006123124893" style="zoom:50%;" />
+
+<p>最后，在hexo模板文件夹内，部署插件<code>hexo-deployer-git</code>，打开git bash，输入以下指令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>通过一下指令，可生成并更新github仓库内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g    # 先生成内容</span><br><span class="line">hexo d    # 部署到Github上</span><br></pre></td></tr></table></figure>
+
+<p>在浏览器上输入<code>用户名.git.io</code>来检验下自己的成果吧~</p>
+]]></content>
       <categories>
-        <category>技术</category>
+        <category>技术流</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>hexo node.js github_pages 网站搭建</tag>
       </tags>
   </entry>
 </search>
