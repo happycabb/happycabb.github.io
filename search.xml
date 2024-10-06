@@ -18,7 +18,7 @@
 <p>安装成功后，在任意位置，右键使用’Git Bash‘，输入以下命令查看是否安装成功：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
-<p><img src="/.io//.%5C%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%5C1.png" alt="1"></p>
+<p><img src="/.io//1.png" alt="1"></p>
 <h4 id="node-js安装hexo并初始化"><a href="#node-js安装hexo并初始化" class="headerlink" title="node.js安装hexo并初始化"></a>node.js安装hexo并初始化</h4><p>hexo是基于node.js驱动的博客框架，Git Bash 使用如下命令下载：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
@@ -32,7 +32,7 @@
 
 <p>其中myBlog是新建文件夹名，cd命令进入新建文件夹下，进行npm install的模板安装</p>
 <p>而后输入<code>hexo s</code>生成网页，可以在本地服务器<a href="http://localhost:4000/">http://localhost:4000/</a>查看网页效果</p>
-<p><img src="/.io//.%5C%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%5C2.png" alt="2"></p>
+<p><img src="/.io//2.png" alt="2"></p>
 <h3 id="添加hexo主题"><a href="#添加hexo主题" class="headerlink" title="添加hexo主题"></a>添加hexo主题</h3><p>添加主题以及主题配置，大家可以参考这篇教程：<a href="https://dayuzy.com/2024%E4%BF%9D%E5%A7%86%E7%BA%A7Hexo.html#%E6%9B%B4%E6%8D%A2%E6%96%B0%E7%94%B5%E8%84%91">2024保姆级Hexo+Github博客搭建教程 NexT主题域名配置 wordpress迁移 | 大鱼的博客 (dayuzy.com)</a></p>
 <p>hexo主题官网：[Themes | Hexo](<a href="https://hexo.io/themes/#:~:text=A">https://hexo.io/themes/#:~:text=A</a> cute and bright hexo theme suitable for literary creation)</p>
 <h3 id="部署网站到github"><a href="#部署网站到github" class="headerlink" title="部署网站到github"></a>部署网站到github</h3><p>首先，创建新仓库并命名为：<code>用户名.git.io</code>，这是github提供的唯一作为静态网站托管的站点。</p>
@@ -45,7 +45,7 @@
 
 <p>将秘钥内容复制，登录github点击左上角头像-&gt;settings-&gt;左侧点击SSH and GPG keys，建立一个新的SSH key，标题任意没要求，将复制的秘钥粘贴上去，并确认建立，本地就可访问github仓库了。</p>
 <p>同时，在主题配置文件<code>_config.yml</code>中，拉到末尾，将自己的仓库地址配置如下：</p>
-<p><img src="/.io//.%5C%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%5C3.png" alt="3"></p>
+<p><img src="/.io//3.png" alt="3"></p>
 <p>最后，在hexo模板文件夹内，部署插件<code>hexo-deployer-git</code>，打开git bash，输入以下指令：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 
