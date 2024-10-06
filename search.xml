@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/post/4a17b156/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<span id="more"></span>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>如何快速搭建个人博客网站</title>
     <url>/post/bb0369f5/</url>
     <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>搭建网站来记录我的生活思考，是我的一种新尝试，比起只能自己看备忘录以及热闹的网络软件，我更喜欢两者的中和。同时，想想自己的日常，缺少点梳理细节和系统思考的活动，左思右想，还是写文章更适合我。那么下面就来介绍下，如何用hexo+github搭建属于自己的个人网站吧！</p>
@@ -38,7 +18,7 @@
 <p>安装成功后，在任意位置，右键使用’Git Bash‘，输入以下命令查看是否安装成功：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 
-<img src="D:\website\source\_posts\assets\image-20241006112719563.png" alt="image-20241006112719563" style="zoom:50%;" />
+<img src=".\assets\image-20241006112719563.png" alt="image-20241006112719563" style="zoom:50%;" />
 
 <h4 id="node-js安装hexo并初始化"><a href="#node-js安装hexo并初始化" class="headerlink" title="node.js安装hexo并初始化"></a>node.js安装hexo并初始化</h4><p>hexo是基于node.js驱动的博客框架，Git Bash 使用如下命令下载：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
@@ -53,7 +33,7 @@
 
 <p>其中myBlog是新建文件夹名，cd命令进入新建文件夹下，进行npm install的模板安装</p>
 <p>而后输入<code>hexo s</code>生成网页，可以在本地服务器<a href="http://localhost:4000/">http://localhost:4000/</a>查看网页效果</p>
-<img src="D:\website\source\_posts\assets\image-20241006121840905.png" alt="image-20241006121840905" style="zoom:50%;" />
+<img src=".\assets\image-20241006121840905.png" alt="image-20241006121840905" style="zoom:50%;" />
 
 <h3 id="添加hexo主题"><a href="#添加hexo主题" class="headerlink" title="添加hexo主题"></a>添加hexo主题</h3><p>添加主题以及主题配置，大家可以参考这篇教程：<a href="https://dayuzy.com/2024%E4%BF%9D%E5%A7%86%E7%BA%A7Hexo.html#%E6%9B%B4%E6%8D%A2%E6%96%B0%E7%94%B5%E8%84%91">2024保姆级Hexo+Github博客搭建教程 NexT主题域名配置 wordpress迁移 | 大鱼的博客 (dayuzy.com)</a></p>
 <p>hexo主题官网：[Themes | Hexo](<a href="https://hexo.io/themes/#:~:text=A">https://hexo.io/themes/#:~:text=A</a> cute and bright hexo theme suitable for literary creation)</p>
@@ -67,7 +47,7 @@
 
 <p>将秘钥内容复制，登录github点击左上角头像-&gt;settings-&gt;左侧点击SSH and GPG keys，建立一个新的SSH key，标题任意没要求，将复制的秘钥粘贴上去，并确认建立，本地就可访问github仓库了。</p>
 <p>同时，在主题配置文件<code>_config.yml</code>中，拉到末尾，将自己的仓库地址配置如下：</p>
-<img src="D:\website\source\_posts\assets\image-20241006123124893.png" alt="image-20241006123124893" style="zoom:50%;" />
+<img src=".\assets\image-20241006123124893.png" alt="image-20241006123124893" style="zoom:50%;" />
 
 <p>最后，在hexo模板文件夹内，部署插件<code>hexo-deployer-git</code>，打开git bash，输入以下指令：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
