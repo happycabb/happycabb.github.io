@@ -19,28 +19,34 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"happycabb.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="写在前面作为一个网站新手，在刚开始的内容写作，还有网站配置上遇到不少问题。想做到好，细节还有借鉴别人的经验少不了，根据自己遇到的问题，在网上搜集大量经验贴，整理了一下各种搭建网站的小技巧和实用插件，希望能给大家点借鉴和参考。">
+    <meta name="description" content="写在前面今天刚好遇到朋友换新电脑要进行文件备份，他没有U盘，打算用QQ分四五次传压缩包，刚好之前了解到手机可以用一根type-c线和电脑互联互传，就想两台电脑是不是也可以用公对公的USB线互联，答案是不可以。但是了解到可以通过局域网共享文件的方式，实现U盘不限流复制的效果，以下附带图文，对相关设置进行详解，包括踩的坑，希望你也能玩转电脑！">
 <meta property="og:type" content="article">
-<meta property="og:title" content="那些布置网站的小技巧">
-<meta property="og:url" content="https://happycabb.github.io/post/85c13de7/index.html">
+<meta property="og:title" content="两台电脑如何不限流共享&#x2F;互传文件">
+<meta property="og:url" content="https://happycabb.github.io/post/39b566d8/index.html">
 <meta property="og:site_name" content="一个藏着各种经验的智慧库">
-<meta property="og:description" content="写在前面作为一个网站新手，在刚开始的内容写作，还有网站配置上遇到不少问题。想做到好，细节还有借鉴别人的经验少不了，根据自己遇到的问题，在网上搜集大量经验贴，整理了一下各种搭建网站的小技巧和实用插件，希望能给大家点借鉴和参考。">
+<meta property="og:description" content="写在前面今天刚好遇到朋友换新电脑要进行文件备份，他没有U盘，打算用QQ分四五次传压缩包，刚好之前了解到手机可以用一根type-c线和电脑互联互传，就想两台电脑是不是也可以用公对公的USB线互联，答案是不可以。但是了解到可以通过局域网共享文件的方式，实现U盘不限流复制的效果，以下附带图文，对相关设置进行详解，包括踩的坑，希望你也能玩转电脑！">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-10-06T07:44:16.000Z">
-<meta property="article:modified_time" content="2024-10-06T14:57:26.450Z">
+<meta property="og:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-35-37.png">
+<meta property="og:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-38-09.png">
+<meta property="og:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-42-57.png">
+<meta property="og:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-54-00.png">
+<meta property="og:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-48-51-1728490200955-7.png">
+<meta property="article:published_time" content="2024-10-09T15:22:36.000Z">
+<meta property="article:modified_time" content="2024-10-09T16:13:58.518Z">
 <meta property="article:author" content="现在时少年">
-<meta property="article:tag" content="美化 便捷插件">
+<meta property="article:tag" content="玩转电脑">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://happycabb.github.io/post/39b566d8/Snipaste_2024-10-09_23-35-37.png">
 
 
-<link rel="canonical" href="https://happycabb.github.io/post/85c13de7/">
+<link rel="canonical" href="https://happycabb.github.io/post/39b566d8/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://happycabb.github.io/post/85c13de7/","path":"post/85c13de7/","title":"那些布置网站的小技巧"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://happycabb.github.io/post/39b566d8/","path":"post/39b566d8/","title":"两台电脑如何不限流共享/互传文件"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>那些布置网站的小技巧 | 一个藏着各种经验的智慧库</title>
+<title>两台电脑如何不限流共享/互传文件 | 一个藏着各种经验的智慧库</title>
   
 
 
@@ -113,7 +119,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%9C%A8hexo%E7%BD%91%E9%A1%B5%E4%B8%8A%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-number">2.</span> <span class="nav-text">如何在hexo网页上插入图片</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="nav-number">1.</span> <span class="nav-text">写在前面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E6%88%96%E6%9F%90%E7%9B%98%E8%AE%BE%E7%BD%AE"><span class="nav-number">2.</span> <span class="nav-text">共享文件夹或某盘设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BC%80%E6%94%BE%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90"><span class="nav-number">3.</span> <span class="nav-text">开放访问权限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%AD%A3%E5%B8%B8%E8%AE%BF%E9%97%AE"><span class="nav-number">4.</span> <span class="nav-text">正常访问</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -175,7 +181,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://happycabb.github.io/post/85c13de7/">
+    <link itemprop="mainEntityOfPage" href="https://happycabb.github.io/post/39b566d8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -188,12 +194,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="那些布置网站的小技巧 | 一个藏着各种经验的智慧库">
+      <meta itemprop="name" content="两台电脑如何不限流共享/互传文件 | 一个藏着各种经验的智慧库">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          那些布置网站的小技巧
+          两台电脑如何不限流共享/互传文件
         </h1>
 
         <div class="post-meta-container">
@@ -203,9 +209,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2024-10-06 15:44:16 / 修改时间：22:57:26" itemprop="dateCreated datePublished" datetime="2024-10-06T15:44:16+08:00">2024-10-06</time>
+      <time title="创建时间：2024-10-09 23:22:36" itemprop="dateCreated datePublished" datetime="2024-10-09T23:22:36+08:00">2024-10-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2024-10-10 00:13:58" itemprop="dateModified" datetime="2024-10-10T00:13:58+08:00">2024-10-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -231,14 +243,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>536</span>
+      <span>1k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>4 分钟</span>
     </span>
 </div>
 
@@ -248,26 +260,46 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>作为一个网站新手，在刚开始的内容写作，还有网站配置上遇到不少问题。想做到好，细节还有借鉴别人的经验少不了，根据自己遇到的问题，在网上搜集大量经验贴，整理了一下各种搭建网站的小技巧和实用插件，希望能给大家点借鉴和参考。</p>
+    <div class="post-body" itemprop="articleBody"><h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>今天刚好遇到朋友换新电脑要进行文件备份，他没有U盘，打算用QQ分四五次传压缩包，刚好之前了解到手机可以用一根type-c线和电脑互联互传，就想两台电脑是不是也可以用公对公的USB线互联，答案是不可以。但是了解到可以通过局域网共享文件的方式，实现U盘不限流复制的效果，以下附带图文，对相关设置进行详解，包括踩的坑，希望你也能玩转电脑！</p>
 <span id="more"></span>
 
-<h3 id="如何在hexo网页上插入图片"><a href="#如何在hexo网页上插入图片" class="headerlink" title="如何在hexo网页上插入图片"></a>如何在hexo网页上插入图片</h3><ul>
-<li><p>打开hexo的配置文件<code>_config.yml</code>将其中的<code>post_asset_folder</code>由<code>false</code>设置为<code>true</code></p>
+<h3 id="共享文件夹或某盘设置"><a href="#共享文件夹或某盘设置" class="headerlink" title="共享文件夹或某盘设置"></a>共享文件夹或某盘设置</h3><p>选中要进行分享的文件夹或某盘，右键-&gt;点击属性-&gt;点击共享</p>
+<img src="/post/39b566d8/Snipaste_2024-10-09_23-35-37.png" alt="Snipaste_2024-10-09_23-35-37" style="zoom:38%;">
+
+<p>点击高级共享-&gt;选择共享此文件夹</p>
+<p>而后需要设置共享文件夹的访问权限，点击权限</p>
+<p>选中everyone，然后开放所有权限</p>
+<img src="/post/39b566d8/Snipaste_2024-10-09_23-38-09.png" alt="Snipaste_2024-10-09_23-38-09" style="zoom:38%;">
+
+<p>对于自己给自己电脑共享文件，可以开放所有权限，如果你是给同事或别人可以自行设置权限</p>
+<p>然后点击两个确定，退出高级共享设置，就发现文件已变成共享状态，保存网络路径，发送个想要共享的电脑。</p>
+<p>其他访问共享文件夹的电脑可以win+R，并输入全部的网络路径，点击浏览就可以看到共享文件了~</p>
+<img src="/post/39b566d8/Snipaste_2024-10-09_23-42-57.png" alt="Snipaste_2024-10-09_23-42-57" style="zoom:38%;">
+
+<p>但是！</p>
+<p>现在他只是知道你在共享文件，还没办法便捷访问，会遇到“需要输入共享文件电脑的账号密码”以及“没有权限访问，需要联络管理员联系请求访问权限”两个问题，所以还需要你进行一下三个设置~</p>
+<h3 id="开放访问权限"><a href="#开放访问权限" class="headerlink" title="开放访问权限"></a>开放访问权限</h3><ul>
+<li><p>无需账号密码进行访问</p>
+<p>在需要共享文件处，同样右键-&gt;属性-&gt;共享，进入熟悉的界面，点击下方的<code>网络和共享中心</code>进入</p>
+<img src="/post/39b566d8/Snipaste_2024-10-09_23-54-00.png" alt="Snipaste_2024-10-09_23-54-00" style="zoom:38%;">
+
+<p>在<code>所有网络</code>的最后一个选项中，关闭<code>密码保护的共享</code>选项，即可让别的电脑免密访问了</p>
 </li>
-<li><p>在hexo文件夹内，打开Git Bash，安装一个下载上传图片的插件，命令如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+<li><p>正式访问权限</p>
+<ul>
+<li><p>第一，在属性的同样熟悉的界面里，选择<code>安全</code>，发现<code>组或用户名</code>里没有Everyone，这里就需要手动添加了。</p>
+<p>点击下面的<code>高级</code>，不需要任何操作，点击左下角的<code>添加</code>，进入点击<code>选择主体</code>，输入对象名称<code>Everyone</code>，点击检测名称，这里是帮你识别是否有相似用户的，也可以帮你纠正输入大小写错误。然后确认，成功创建主体，你同样可以根据自己需求设置权限。多次确认在属性的安全页面，你就可以看到Everyone的用户名了，添加权限成功</p>
 </li>
-<li><p>再次用<code>hexo new &#39;文章名&#39;</code>生成新内容时，会在同级目录下自动添加一个存放图片的同级文件夹，当你在md文档里添加图片时，也会将图片自动保存到同名文件夹内</p>
-</li>
-<li><p>操作过后发现Typora上有图片显示，github加载后没图片显示</p>
-</li>
-<li><p>修改<code>node_modules/hexo-asset-image/index.js</code>文件内容为一下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">&#x27;use strict&#x27;;</span><br><span class="line">var cheerio = require(&#x27;cheerio&#x27;);</span><br><span class="line">     </span><br><span class="line">// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string</span><br><span class="line">function getPosition(str, m, i) &#123;</span><br><span class="line">  return str.split(m, i).join(m).length;</span><br><span class="line">&#125;</span><br><span class="line">     </span><br><span class="line">var version = String(hexo.version).split(&#x27;.&#x27;);</span><br><span class="line">hexo.extend.filter.register(&#x27;after_post_render&#x27;, function(data)&#123;</span><br><span class="line">  var config = hexo.config;</span><br><span class="line">  if(config.post_asset_folder)&#123;</span><br><span class="line">       var link = data.permalink;</span><br><span class="line">   if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 1) + 1;</span><br><span class="line">   else</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 3) + 1;</span><br><span class="line">   // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.</span><br><span class="line">   var endPos = link.lastIndexOf(&#x27;/&#x27;) + 1;</span><br><span class="line">    link = link.substring(beginPos, endPos);</span><br><span class="line">     </span><br><span class="line">    var toprocess = [&#x27;excerpt&#x27;, &#x27;more&#x27;, &#x27;content&#x27;];</span><br><span class="line">    for(var i = 0; i &lt; toprocess.length; i++)&#123;</span><br><span class="line">      var key = toprocess[i];</span><br><span class="line">      </span><br><span class="line">      var $ = cheerio.load(data[key], &#123;</span><br><span class="line">        ignoreWhitespace: false,</span><br><span class="line">        xmlMode: false,</span><br><span class="line">        lowerCaseTags: false,</span><br><span class="line">        decodeEntities: false</span><br><span class="line">      &#125;);</span><br><span class="line">     </span><br><span class="line">      $(&#x27;img&#x27;).each(function()&#123;</span><br><span class="line">       if ($(this).attr(&#x27;src&#x27;))&#123;</span><br><span class="line">           // For windows style path, we replace &#x27;\&#x27; to &#x27;/&#x27;.</span><br><span class="line">           var src = $(this).attr(&#x27;src&#x27;).replace(&#x27;\\&#x27;, &#x27;/&#x27;);</span><br><span class="line">           if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;</span><br><span class="line">              !/^\s*\//.test(src)) &#123;</span><br><span class="line">             // For &quot;about&quot; page, the first part of &quot;src&quot; can&#x27;t be removed.</span><br><span class="line">             // In addition, to support multi-level local directory.</span><br><span class="line">             var linkArray = link.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             var srcArray = src.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27; &amp;&amp; elem != &#x27;.&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             if(srcArray.length &gt; 1)</span><br><span class="line">               srcArray.shift();</span><br><span class="line">             src = srcArray.join(&#x27;/&#x27;);</span><br><span class="line">             $(this).attr(&#x27;src&#x27;, config.root + link + src);</span><br><span class="line">             console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;else&#123;</span><br><span class="line">           console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);</span><br><span class="line">           console.info&amp;&amp;console.info($(this));</span><br><span class="line">       &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">      data[key] = $.html();</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>正常插入图片，并将图片缩放，转化为Javascript语言，Typora和github上即可正常显示了</p>
+<li><p>第二，在<code>开始</code>里，搜索控制面板并进入，点击程序进入</p>
+<img src="/post/39b566d8/Snipaste_2024-10-09_23-48-51-1728490200955-7.png" alt="Snipaste_2024-10-09_23-48-51" style="zoom:38%;">
+
+<p>在程序和功能里，点击进入<code>启用或关闭Windows功能</code>，进入开启<code>SMB 1.0/CIFS 文件共享支持</code>，开启后会要求重启，重启即可。</p>
 </li>
 </ul>
-<p>教程来源：[解决Hexo+Github+Typora图片无法正确显示的问题 - 知乎 (zhihu.com)](<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/645679541#:~:text=%E5%9C%A8">https://zhuanlan.zhihu.com/p/645679541#:~:text=在</a> Hexo 中，最)</p>
+</li>
+</ul>
+<h3 id="正常访问"><a href="#正常访问" class="headerlink" title="正常访问"></a>正常访问</h3><p>使用其他电脑，用win+R，并输入共享文件夹的<code>网络路径</code>，点击浏览，你就可以正常访问并下载其中的文件了。</p>
+<p>说实话，自己这么操作一遍，发现我们实验室每一届留存的学习资料库就是这么创建的，每个人在校园网的局域网下，师兄弟们可以通过<code>网络路径</code>，查看我们分享的文档，不多说属实方便。</p>
 
     </div>
 
@@ -285,7 +317,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://happycabb.github.io/post/85c13de7/" title="那些布置网站的小技巧">https://happycabb.github.io/post/85c13de7/</a>
+      <a href="https://happycabb.github.io/post/39b566d8/" title="两台电脑如何不限流共享&#x2F;互传文件">https://happycabb.github.io/post/39b566d8/</a>
   </li>
   <li class="post-copyright-license">
       <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -294,18 +326,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E7%BE%8E%E5%8C%96-%E4%BE%BF%E6%8D%B7%E6%8F%92%E4%BB%B6/" rel="tag"># 美化 便捷插件</a>
+              <a href="/tags/%E7%8E%A9%E8%BD%AC%E7%94%B5%E8%84%91/" rel="tag"># 玩转电脑</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
+                <a href="/post/ef4434d4/" rel="prev" title="为什么说凡事要趁早做">
+                  <i class="fa fa-angle-left"></i> 为什么说凡事要趁早做
+                </a>
             </div>
             <div class="post-nav-item">
-                <a href="/post/8e3fd7ab/" rel="next" title="如何快速搭建个人博客网站">
-                  如何快速搭建个人博客网站 <i class="fa fa-angle-right"></i>
-                </a>
             </div>
           </div>
     </footer>
