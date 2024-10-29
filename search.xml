@@ -404,7 +404,7 @@
 <li>正常打印时，仅螺丝定位处，外壁孔和螺丝会出现过盈配合，装配效果较好，不需要修改参数值</li>
 <li>螺丝螺母定位孔，可以根据孔径大小适当扩大0.2~0.5mm的直径量，来保证螺丝顺利通过外壁孔</li>
 </ul>
-<img src="/post/5c63e7b6/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f" style="zoom:33%;">
+<p><img src="/post/5c63e7b6/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f"></p>
 ]]></content>
       <categories>
         <category>技术流</category>
@@ -478,5 +478,10 @@
       <tags>
         <tag>成长</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>3D打印材料设计标准</title>
+    <url>/post/a3d114da/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
