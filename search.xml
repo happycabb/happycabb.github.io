@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>3D打印装配体小知识</title>
-    <url>/post/5c63e7b6/</url>
-    <content><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>3D打印零件精度受限于喷嘴直径，易产生不必要的过盈配合，在孔径、壁厚等关键配合地方表现最为明显，对装配性能产生影响。受加热耗材具有一定的流动性，且受重力影响，同样增加了零件误差现象。为了保证装配体的装配性、牢固性、运动性、美观性，在结构不干涉的基础上，通过增加一定裕量，来保证3D打印零件的性能。结合具体的装配体，说明如下：</p>
-<span id="more"></span>
-
-<h1 id="电机盒"><a href="#电机盒" class="headerlink" title="电机盒"></a>电机盒</h1><ul>
-<li>类似墙角的直角配合处，应在内部配合零件处打0.5~3mm的圆角，避免直角处打印突起影响装配</li>
-<li>平行边限位时，如正方形的盒体两边，需要增加0.5mm的间隙，保证装配为间隙配合</li>
-<li>在装紧螺丝时，打印材料会发生形变，让螺丝过度旋入螺纹孔，在电机定位孔处，不能完全利用螺纹深度，避免螺丝过度装配，顶住电机内部的传动机构而让电机无法转动，此时应将外侧承载壁壁厚增加0.5mm的裕量</li>
-<li>固定轴承时，只能限制内外轴其一，同样在垂直其径向安装时，两侧固定要留0.25mm间隙，保证不过度装配，或采用凸台设计只定位内外轴其一</li>
-<li>壁面接触安装，如两圆柱结构同心配合，要将外壁扩大0.5mm的裕度，保证为间隙配合，让零部件可装可拆</li>
-<li>正常打印时，仅螺丝定位处，外壁孔和螺丝会出现过盈配合，装配效果较好，不需要修改参数值</li>
-<li>螺丝螺母定位孔，可以根据孔径大小适当扩大0.2~0.5mm的直径量，来保证螺丝顺利通过外壁孔</li>
-</ul>
-<p><img src="/post/5c63e7b6/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f"></p>
-]]></content>
-      <categories>
-        <category>技术流</category>
-      </categories>
-      <tags>
-        <tag>Solidworks</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>上班之后，只剩下为别人而活了</title>
-    <url>/post/7e64338/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>3D打印材料设计标准</title>
-    <url>/post/a3d114da/</url>
-    <content><![CDATA[<p><img src="/post/a3d114da/a3d114da/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f"></p>
-]]></content>
-  </entry>
-  <entry>
     <title>两台电脑如何不限流共享/互传文件</title>
     <url>/post/39b566d8/</url>
     <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>今天刚好遇到朋友换新电脑要进行文件备份，他没有U盘，打算用QQ分四五次传压缩包，刚好之前了解到手机可以用一根type-c线和电脑互联互传，就想两台电脑是不是也可以用公对公的USB线互联，答案是不可以。但是了解到可以通过局域网共享文件的方式，实现U盘不限流复制的效果，以下附带图文，对相关设置进行详解，包括踩的坑，希望你也能玩转电脑！</p>
@@ -87,6 +52,41 @@
       </tags>
   </entry>
   <entry>
+    <title>3D打印装配体小知识</title>
+    <url>/post/5c63e7b6/</url>
+    <content><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>3D打印零件精度受限于喷嘴直径，易产生不必要的过盈配合，在孔径、壁厚等关键配合地方表现最为明显，对装配性能产生影响。受加热耗材具有一定的流动性，且受重力影响，同样增加了零件误差现象。为了保证装配体的装配性、牢固性、运动性、美观性，在结构不干涉的基础上，通过增加一定裕量，来保证3D打印零件的性能。结合具体的装配体，说明如下：</p>
+<span id="more"></span>
+
+<h1 id="电机盒"><a href="#电机盒" class="headerlink" title="电机盒"></a>电机盒</h1><ul>
+<li>类似墙角的直角配合处，应在内部配合零件处打0.5~3mm的圆角，避免直角处打印突起影响装配</li>
+<li>平行边限位时，如正方形的盒体两边，需要增加0.5mm的间隙，保证装配为间隙配合</li>
+<li>在装紧螺丝时，打印材料会发生形变，让螺丝过度旋入螺纹孔，在电机定位孔处，不能完全利用螺纹深度，避免螺丝过度装配，顶住电机内部的传动机构而让电机无法转动，此时应将外侧承载壁壁厚增加0.5mm的裕量</li>
+<li>固定轴承时，只能限制内外轴其一，同样在垂直其径向安装时，两侧固定要留0.25mm间隙，保证不过度装配，或采用凸台设计只定位内外轴其一</li>
+<li>壁面接触安装，如两圆柱结构同心配合，要将外壁扩大0.5mm的裕度，保证为间隙配合，让零部件可装可拆</li>
+<li>正常打印时，仅螺丝定位处，外壁孔和螺丝会出现过盈配合，装配效果较好，不需要修改参数值</li>
+<li>螺丝螺母定位孔，可以根据孔径大小适当扩大0.2~0.5mm的直径量，来保证螺丝顺利通过外壁孔</li>
+</ul>
+<p><img src="/post/5c63e7b6/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f"></p>
+]]></content>
+      <categories>
+        <category>技术流</category>
+      </categories>
+      <tags>
+        <tag>Solidworks</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上班之后，只剩下为别人而活了</title>
+    <url>/post/7e64338/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>3D打印材料设计标准</title>
+    <url>/post/a3d114da/</url>
+    <content><![CDATA[<p><img src="/post/a3d114da/a3d114da/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>为什么说凡事要趁早做</title>
     <url>/post/ef4434d4/</url>
     <content><![CDATA[<p>今天国庆收假，一觉醒来发现好多事情没做，其中就有放假前准备去修小米电机这件事。磨磨蹭蹭，下午睡到三点半，一个念头就是准备冲到小米之家，看看能不能给维修下。下楼扫了辆自行车，遇到上坡铆足力劲蹬，只想着我蹬快点能再蹬出个七天假期。</p>
@@ -111,62 +111,6 @@
       </categories>
       <tags>
         <tag>生活感悟</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>做到收到反馈，再收手~</title>
-    <url>/post/b274d98/</url>
-    <content><![CDATA[<p>什么是努力，或许投入了时间与思考的事情就是努力</p>
-<p>但努力一定会有回报吗</p>
-<p>我想，不一定！不一定到你从一开始就不清楚回报有几成可能</p>
-<p>但我想说，努力到一定程度一定能确切知道这个答案</p>
-<p>这就是世界的真相</p>
-<p>同时也是指导你，做一件事做到什么程度的答案</p>
-<span id="more"></span>
-
-<p>不出意外，能引起我反思的还是因为老板给我安排了新任务</p>
-<p>来改善旧版的电机盒，要求能够解决相切拉动力线、将电机驱动模块内置到电机盒里</p>
-<p>想想也可以，我还可以再增加点功能</p>
-<p>拿到原版SolidWorks图纸，我人麻了</p>
-<p>老板为了快速验证，底座和电机安装位置就不对称</p>
-<p>我要从基础草图改起，熟悉图纸、在淘宝搜索选型新零件、建模新零件尺寸、测算相切位置放置干涉、测算驱动模块尺寸目测放置位置、修改盒盖尺寸、设计相切结构来改变绳驱的方向，折腾一天把零件图改好了</p>
-<p>搜索的几个零件，也购买了够安装一个灵巧手的量</p>
-<p>想着给老板交差</p>
-<p>和老板一交流，出发问题！</p>
-<p>因为我没装配起来，老板根本听不懂我在讲什么，没有直观的展示</p>
-<p>而且我还自作主张，直接打印出来了，别说，打印出来真的合不上</p>
-<p>装配吧！一到装配我突然发现，我没买固定的螺丝，只买了大部分主零件</p>
-<p>原来我想过把这件事做完整做好，但是还没做到底</p>
-<p>SolidWorks上建模装配，是验证的第一步，我收到了行动反馈，还需要我及时调整来实现好的结果</p>
-<p>列出购物清单，记录需要的零部件，根据装配盒安装厚度，选型螺丝</p>
-<p>并装配验证正确性，折腾了一天，发现没问题了</p>
-<p>3D打印！先出一版实物，等零件回来组装验证下</p>
-<p>半天盒子就打印好了，不出意外，还是有大问题</p>
-<p>因为3D打印喷嘴精度是0.2毫米，打印材料受重力影响，会在孔位等结构出现较大偏差</p>
-<p>底座和盒盖在正方形转角过盈配合，壁面也存在需要用力按压才能配合，但按进去取出来难取</p>
-<p>电机安装位置，无法定位电机突出的M6支撑轴，因为孔设计的是6mm，但是打印精度导致孔偏小</p>
-<p>因为材料形变，电机定位螺丝M2*8拧紧时会完全利用螺纹，并抵住电机的外转子，让电机没法旋转</p>
-<p>必须重新改尺寸</p>
-<p>在”墙角”的配合结构，采用过渡圆角来装配，并将底座和盒盖壁调了相差0.5mm</p>
-<p>相似的孔调大0.5mm，将电机定位孔加厚0.5</p>
-<p>以此适应打印机的精度</p>
-<p>至此一个可以正常使用的电机装配盒就可以使用了</p>
-<img src="/post/b274d98/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f" style="zoom:50%;">
-
-<p>从被老板叫过去，一块讨论第二代驱动装置，收到改进任务，我是没想到要做到保证实际可用并且负责可组装才是改进任务的完整完成</p>
-<p>做！永远都是第一步，不知好坏的第一步</p>
-<p>一直做到有效果反馈，才有你之前做的答案</p>
-<p>我时常保持向前思考的方式，保证自己工作的适用度</p>
-<p>但是仅想到把零部件和结构设计好是不够的</p>
-<p>要做就做到，能把你买的零部件和设计结构给用上，不出问题的用上才是一段终点</p>
-<p>从长远的角度，布局你的努力方向，是永远对的！</p>
-<p>这样你现在努力的意义，就有了长久的延续</p>
-]]></content>
-      <categories>
-        <category>触动</category>
-      </categories>
-      <tags>
-        <tag>世界的真相</tag>
       </tags>
   </entry>
   <entry>
@@ -244,6 +188,62 @@
       </categories>
       <tags>
         <tag>实习生活</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>做到收到反馈，再收手~</title>
+    <url>/post/b274d98/</url>
+    <content><![CDATA[<p>什么是努力，或许投入了时间与思考的事情就是努力</p>
+<p>但努力一定会有回报吗</p>
+<p>我想，不一定！不一定到你从一开始就不清楚回报有几成可能</p>
+<p>但我想说，努力到一定程度一定能确切知道这个答案</p>
+<p>这就是世界的真相</p>
+<p>同时也是指导你，做一件事做到什么程度的答案</p>
+<span id="more"></span>
+
+<p>不出意外，能引起我反思的还是因为老板给我安排了新任务</p>
+<p>来改善旧版的电机盒，要求能够解决相切拉动力线、将电机驱动模块内置到电机盒里</p>
+<p>想想也可以，我还可以再增加点功能</p>
+<p>拿到原版SolidWorks图纸，我人麻了</p>
+<p>老板为了快速验证，底座和电机安装位置就不对称</p>
+<p>我要从基础草图改起，熟悉图纸、在淘宝搜索选型新零件、建模新零件尺寸、测算相切位置放置干涉、测算驱动模块尺寸目测放置位置、修改盒盖尺寸、设计相切结构来改变绳驱的方向，折腾一天把零件图改好了</p>
+<p>搜索的几个零件，也购买了够安装一个灵巧手的量</p>
+<p>想着给老板交差</p>
+<p>和老板一交流，出发问题！</p>
+<p>因为我没装配起来，老板根本听不懂我在讲什么，没有直观的展示</p>
+<p>而且我还自作主张，直接打印出来了，别说，打印出来真的合不上</p>
+<p>装配吧！一到装配我突然发现，我没买固定的螺丝，只买了大部分主零件</p>
+<p>原来我想过把这件事做完整做好，但是还没做到底</p>
+<p>SolidWorks上建模装配，是验证的第一步，我收到了行动反馈，还需要我及时调整来实现好的结果</p>
+<p>列出购物清单，记录需要的零部件，根据装配盒安装厚度，选型螺丝</p>
+<p>并装配验证正确性，折腾了一天，发现没问题了</p>
+<p>3D打印！先出一版实物，等零件回来组装验证下</p>
+<p>半天盒子就打印好了，不出意外，还是有大问题</p>
+<p>因为3D打印喷嘴精度是0.2毫米，打印材料受重力影响，会在孔位等结构出现较大偏差</p>
+<p>底座和盒盖在正方形转角过盈配合，壁面也存在需要用力按压才能配合，但按进去取出来难取</p>
+<p>电机安装位置，无法定位电机突出的M6支撑轴，因为孔设计的是6mm，但是打印精度导致孔偏小</p>
+<p>因为材料形变，电机定位螺丝M2*8拧紧时会完全利用螺纹，并抵住电机的外转子，让电机没法旋转</p>
+<p>必须重新改尺寸</p>
+<p>在”墙角”的配合结构，采用过渡圆角来装配，并将底座和盒盖壁调了相差0.5mm</p>
+<p>相似的孔调大0.5mm，将电机定位孔加厚0.5</p>
+<p>以此适应打印机的精度</p>
+<p>至此一个可以正常使用的电机装配盒就可以使用了</p>
+<img src="/post/b274d98/10093df4-6396-45ae-936a-9f26c7411a5f.png" alt="10093df4-6396-45ae-936a-9f26c7411a5f" style="zoom:50%;">
+
+<p>从被老板叫过去，一块讨论第二代驱动装置，收到改进任务，我是没想到要做到保证实际可用并且负责可组装才是改进任务的完整完成</p>
+<p>做！永远都是第一步，不知好坏的第一步</p>
+<p>一直做到有效果反馈，才有你之前做的答案</p>
+<p>我时常保持向前思考的方式，保证自己工作的适用度</p>
+<p>但是仅想到把零部件和结构设计好是不够的</p>
+<p>要做就做到，能把你买的零部件和设计结构给用上，不出问题的用上才是一段终点</p>
+<p>从长远的角度，布局你的努力方向，是永远对的！</p>
+<p>这样你现在努力的意义，就有了长久的延续</p>
+]]></content>
+      <categories>
+        <category>触动</category>
+      </categories>
+      <tags>
+        <tag>世界的真相</tag>
       </tags>
   </entry>
   <entry>
@@ -391,6 +391,37 @@
       </tags>
   </entry>
   <entry>
+    <title>那些布置网站的小技巧</title>
+    <url>/post/85c13de7/</url>
+    <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>作为一个网站新手，在刚开始的内容写作，还有网站配置上遇到不少问题。想做到好，细节还有借鉴别人的经验少不了，根据自己遇到的问题，在网上搜集大量经验贴，整理了一下各种搭建网站的小技巧和实用插件，希望能给大家点借鉴和参考。</p>
+<span id="more"></span>
+
+<h3 id="如何在hexo网页上插入图片"><a href="#如何在hexo网页上插入图片" class="headerlink" title="如何在hexo网页上插入图片"></a>如何在hexo网页上插入图片</h3><ul>
+<li><p>打开hexo的配置文件<code>_config.yml</code>将其中的<code>post_asset_folder</code>由<code>false</code>设置为<code>true</code></p>
+</li>
+<li><p>在hexo文件夹内，打开Git Bash，安装一个下载上传图片的插件，命令如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>再次用<code>hexo new &#39;文章名&#39;</code>生成新内容时，会在同级目录下自动添加一个存放图片的同级文件夹，当你在md文档里添加图片时，也会将图片自动保存到同名文件夹内</p>
+</li>
+<li><p>操作过后发现Typora上有图片显示，github加载后没图片显示</p>
+</li>
+<li><p>修改<code>node_modules/hexo-asset-image/index.js</code>文件内容为一下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;use strict&#x27;;</span><br><span class="line">var cheerio = require(&#x27;cheerio&#x27;);</span><br><span class="line">     </span><br><span class="line">// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string</span><br><span class="line">function getPosition(str, m, i) &#123;</span><br><span class="line">  return str.split(m, i).join(m).length;</span><br><span class="line">&#125;</span><br><span class="line">     </span><br><span class="line">var version = String(hexo.version).split(&#x27;.&#x27;);</span><br><span class="line">hexo.extend.filter.register(&#x27;after_post_render&#x27;, function(data)&#123;</span><br><span class="line">  var config = hexo.config;</span><br><span class="line">  if(config.post_asset_folder)&#123;</span><br><span class="line">       var link = data.permalink;</span><br><span class="line">   if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 1) + 1;</span><br><span class="line">   else</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 3) + 1;</span><br><span class="line">   // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.</span><br><span class="line">   var endPos = link.lastIndexOf(&#x27;/&#x27;) + 1;</span><br><span class="line">    link = link.substring(beginPos, endPos);</span><br><span class="line">     </span><br><span class="line">    var toprocess = [&#x27;excerpt&#x27;, &#x27;more&#x27;, &#x27;content&#x27;];</span><br><span class="line">    for(var i = 0; i &lt; toprocess.length; i++)&#123;</span><br><span class="line">      var key = toprocess[i];</span><br><span class="line">      </span><br><span class="line">      var $ = cheerio.load(data[key], &#123;</span><br><span class="line">        ignoreWhitespace: false,</span><br><span class="line">        xmlMode: false,</span><br><span class="line">        lowerCaseTags: false,</span><br><span class="line">        decodeEntities: false</span><br><span class="line">      &#125;);</span><br><span class="line">     </span><br><span class="line">      $(&#x27;img&#x27;).each(function()&#123;</span><br><span class="line">       if ($(this).attr(&#x27;src&#x27;))&#123;</span><br><span class="line">           // For windows style path, we replace &#x27;\&#x27; to &#x27;/&#x27;.</span><br><span class="line">           var src = $(this).attr(&#x27;src&#x27;).replace(&#x27;\\&#x27;, &#x27;/&#x27;);</span><br><span class="line">           if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;</span><br><span class="line">              !/^\s*\//.test(src)) &#123;</span><br><span class="line">             // For &quot;about&quot; page, the first part of &quot;src&quot; can&#x27;t be removed.</span><br><span class="line">             // In addition, to support multi-level local directory.</span><br><span class="line">             var linkArray = link.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             var srcArray = src.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27; &amp;&amp; elem != &#x27;.&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             if(srcArray.length &gt; 1)</span><br><span class="line">               srcArray.shift();</span><br><span class="line">             src = srcArray.join(&#x27;/&#x27;);</span><br><span class="line">             $(this).attr(&#x27;src&#x27;, config.root + link + src);</span><br><span class="line">             console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;else&#123;</span><br><span class="line">           console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);</span><br><span class="line">           console.info&amp;&amp;console.info($(this));</span><br><span class="line">       &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">      data[key] = $.html();</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>正常插入图片，并将图片缩放，转化为Javascript语言，Typora和github上即可正常显示了</p>
+</li>
+</ul>
+<p>教程来源：[解决Hexo+Github+Typora图片无法正确显示的问题 - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/645679541#:~:text=%E5%9C%A8">https://zhuanlan.zhihu.com/p/645679541#:~:text=在</a> Hexo 中，最)</p>
+]]></content>
+      <categories>
+        <category>技术流</category>
+      </categories>
+      <tags>
+        <tag>美化 便捷插件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>如何快速搭建个人博客网站</title>
     <url>/post/8e3fd7ab/</url>
     <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>搭建网站来记录我的生活思考，是我的一种新尝试，比起只能自己看备忘录以及热闹的网络软件，我更喜欢两者的中和。同时，想想自己的日常，缺少点梳理细节和系统思考的活动，左思右想，还是写文章更适合我。那么下面就来介绍下，如何用hexo+github搭建属于自己的个人网站吧！</p>
@@ -452,37 +483,6 @@
       </categories>
       <tags>
         <tag>hexo node.js github_pages 网站搭建</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>那些布置网站的小技巧</title>
-    <url>/post/85c13de7/</url>
-    <content><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h3><p>作为一个网站新手，在刚开始的内容写作，还有网站配置上遇到不少问题。想做到好，细节还有借鉴别人的经验少不了，根据自己遇到的问题，在网上搜集大量经验贴，整理了一下各种搭建网站的小技巧和实用插件，希望能给大家点借鉴和参考。</p>
-<span id="more"></span>
-
-<h3 id="如何在hexo网页上插入图片"><a href="#如何在hexo网页上插入图片" class="headerlink" title="如何在hexo网页上插入图片"></a>如何在hexo网页上插入图片</h3><ul>
-<li><p>打开hexo的配置文件<code>_config.yml</code>将其中的<code>post_asset_folder</code>由<code>false</code>设置为<code>true</code></p>
-</li>
-<li><p>在hexo文件夹内，打开Git Bash，安装一个下载上传图片的插件，命令如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>再次用<code>hexo new &#39;文章名&#39;</code>生成新内容时，会在同级目录下自动添加一个存放图片的同级文件夹，当你在md文档里添加图片时，也会将图片自动保存到同名文件夹内</p>
-</li>
-<li><p>操作过后发现Typora上有图片显示，github加载后没图片显示</p>
-</li>
-<li><p>修改<code>node_modules/hexo-asset-image/index.js</code>文件内容为一下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;use strict&#x27;;</span><br><span class="line">var cheerio = require(&#x27;cheerio&#x27;);</span><br><span class="line">     </span><br><span class="line">// http://stackoverflow.com/questions/14480345/how-to-get-the-nth-occurrence-in-a-string</span><br><span class="line">function getPosition(str, m, i) &#123;</span><br><span class="line">  return str.split(m, i).join(m).length;</span><br><span class="line">&#125;</span><br><span class="line">     </span><br><span class="line">var version = String(hexo.version).split(&#x27;.&#x27;);</span><br><span class="line">hexo.extend.filter.register(&#x27;after_post_render&#x27;, function(data)&#123;</span><br><span class="line">  var config = hexo.config;</span><br><span class="line">  if(config.post_asset_folder)&#123;</span><br><span class="line">       var link = data.permalink;</span><br><span class="line">   if(version.length &gt; 0 &amp;&amp; Number(version[0]) == 3)</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 1) + 1;</span><br><span class="line">   else</span><br><span class="line">      var beginPos = getPosition(link, &#x27;/&#x27;, 3) + 1;</span><br><span class="line">   // In hexo 3.1.1, the permalink of &quot;about&quot; page is like &quot;.../about/index.html&quot;.</span><br><span class="line">   var endPos = link.lastIndexOf(&#x27;/&#x27;) + 1;</span><br><span class="line">    link = link.substring(beginPos, endPos);</span><br><span class="line">     </span><br><span class="line">    var toprocess = [&#x27;excerpt&#x27;, &#x27;more&#x27;, &#x27;content&#x27;];</span><br><span class="line">    for(var i = 0; i &lt; toprocess.length; i++)&#123;</span><br><span class="line">      var key = toprocess[i];</span><br><span class="line">      </span><br><span class="line">      var $ = cheerio.load(data[key], &#123;</span><br><span class="line">        ignoreWhitespace: false,</span><br><span class="line">        xmlMode: false,</span><br><span class="line">        lowerCaseTags: false,</span><br><span class="line">        decodeEntities: false</span><br><span class="line">      &#125;);</span><br><span class="line">     </span><br><span class="line">      $(&#x27;img&#x27;).each(function()&#123;</span><br><span class="line">       if ($(this).attr(&#x27;src&#x27;))&#123;</span><br><span class="line">           // For windows style path, we replace &#x27;\&#x27; to &#x27;/&#x27;.</span><br><span class="line">           var src = $(this).attr(&#x27;src&#x27;).replace(&#x27;\\&#x27;, &#x27;/&#x27;);</span><br><span class="line">           if(!/http[s]*.*|\/\/.*/.test(src) &amp;&amp;</span><br><span class="line">              !/^\s*\//.test(src)) &#123;</span><br><span class="line">             // For &quot;about&quot; page, the first part of &quot;src&quot; can&#x27;t be removed.</span><br><span class="line">             // In addition, to support multi-level local directory.</span><br><span class="line">             var linkArray = link.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             var srcArray = src.split(&#x27;/&#x27;).filter(function(elem)&#123;</span><br><span class="line">               return elem != &#x27;&#x27; &amp;&amp; elem != &#x27;.&#x27;;</span><br><span class="line">             &#125;);</span><br><span class="line">             if(srcArray.length &gt; 1)</span><br><span class="line">               srcArray.shift();</span><br><span class="line">             src = srcArray.join(&#x27;/&#x27;);</span><br><span class="line">             $(this).attr(&#x27;src&#x27;, config.root + link + src);</span><br><span class="line">             console.info&amp;&amp;console.info(&quot;update link as:--&gt;&quot;+config.root + link + src);</span><br><span class="line">           &#125;</span><br><span class="line">       &#125;else&#123;</span><br><span class="line">           console.info&amp;&amp;console.info(&quot;no src attr, skipped...&quot;);</span><br><span class="line">           console.info&amp;&amp;console.info($(this));</span><br><span class="line">       &#125;</span><br><span class="line">      &#125;);</span><br><span class="line">      data[key] = $.html();</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>正常插入图片，并将图片缩放，转化为Javascript语言，Typora和github上即可正常显示了</p>
-</li>
-</ul>
-<p>教程来源：[解决Hexo+Github+Typora图片无法正确显示的问题 - 知乎 (zhihu.com)](<a href="https://zhuanlan.zhihu.com/p/645679541#:~:text=%E5%9C%A8">https://zhuanlan.zhihu.com/p/645679541#:~:text=在</a> Hexo 中，最)</p>
-]]></content>
-      <categories>
-        <category>技术流</category>
-      </categories>
-      <tags>
-        <tag>美化 便捷插件</tag>
       </tags>
   </entry>
 </search>
